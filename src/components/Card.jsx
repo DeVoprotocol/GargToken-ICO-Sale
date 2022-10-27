@@ -33,12 +33,12 @@ export default function Card(props) {
 					role="progressbar"
 					aria-valuenow={props.tokensSold}
 					aria-valuemin="0"
-					aria-valuemax="750000"
-					style={{ width: (props.tokensSold / 750000) * 100 + "%" }}
+					aria-valuemax="10000000"
+					style={{ width: (props.tokensSold / 10000000) * 100 + "%" }}
 				></div>
 			</div>
 			<p>
-				<span>{props.tokensSold}</span>/<span>750000</span>
+				<span>{props.tokensSold}</span>/<span>10000000</span>
 			</p>
 		</div>
 	);
