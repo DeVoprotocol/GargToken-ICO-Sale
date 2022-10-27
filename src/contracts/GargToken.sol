@@ -1,9 +1,9 @@
 pragma solidity ^0.5.0;
 
 contract GargToken {
-    string public name = "Garg Token"; //Optional
-    string public symbol = "GARG"; //Optional
-    string public standard = "Garg Token v1.0"; //Not in documentation, extra!
+    string public name = "DeVo"; //Optional
+    string public symbol = "DEVO"; //Optional
+    string public standard = "DeVo Token v1.0"; //Not in documentation, extra!
     uint256 public totalSupply;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
